@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form pemesanan Ringkas - Poliban Digicraft</title>
+</head>
+<body>
+     <header>
+        <table> 
+            <tr>
+                <th>
+     <! -- bagian kepala halaman (Header & Navigasi) -- >
+        <h2>Form Pemesanan Ringkas - Poliban Digicraft</h2>
+     </th>
+     <th>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">kembali ke beranda</a></p>
+     </th>
+ </tr>
+        
+</table>
+
+    <hr>
+
+    <!-- Bagian Image / Deskripsi -->
+<div>
+    <img src="gambar piattos potato chips.jpg" alt="gambar piattos potato chips.jpg" width="450">
+    <h3>Image</h3>
+    <p>Deskripsi singkat tentang produk atau layanan yang ditawarkan oleh Poliban Digicraft.informasi tambahan untuk pengguna.</p>
+    </div>
+
+    <br>
+
+    <!-- Tabel Daftar Paket dan harga -->
+    <table border="1" cellspacing="0" width="80%">
+        <thead>
+             <tr>
+                <th>Package Name</th>
+                <th>Price</th>
+             </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Paket Basic</td>
+                <td>Rp. 50.000</td>
+            </tr>
+            <tr>
+                <td>Paket Standar</td>
+                <td>Rp.100.000</td>
+            </tr>
+            <tr>
+                <td>Paket Premium</td>
+                <td>Rp.150.000</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+<!-- Kotak Formulir Pemesanan -->
+ <fieldset>
+    <legend><h3>Formulir Pemesanan</h3></legend>
+    <form action="#" method="POST">
+        <p>
+           <label for="nama">Nama Lengkap:</label>
+           <input type="nama" id="nama" name="nama" placeholder="Shafiera Shafa">
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Email">
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <select id="paket" name="paket">
+                <option value="" disabled selected>Pilih Paket</option>
+                <option value="basic">Paket Basic</option>
+                <option value="standar">Paket Standar</option>
+                <option value="premium">Paket Premium</option>
+            </select>
+        </p>
+        <p>
+            <button type="submit">Kirim Pesanan</button>
+        </p>
+    </form>
+ </fieldset>
+
+</body>
+</html>
