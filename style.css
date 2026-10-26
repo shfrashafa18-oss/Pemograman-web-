@@ -77,3 +77,27 @@ nav a:hover, nav a.active {
     background-color: rgba(255, 255, 255, 0.25);
     font-weight: bold;
 }
+
+/* 5 MAIN CONTENT */
+
+main {
+    padding: 40px 0;
+}
+
+.section {
+    margin-bottom: 50px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--secondary-color);
+    margin-bottom: 5px;
+}
+
+.section-subtitle {
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    margin-bottom: 30px;
+}
